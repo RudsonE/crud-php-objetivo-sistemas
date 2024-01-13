@@ -151,3 +151,16 @@ hr {
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
+
+.logo-img {
+    
+  	  width: 150px;
+	  height: 150px;
+      border-style: ridge;
+      border-radius: 25px;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: 50% 50%;  
+    
+}
