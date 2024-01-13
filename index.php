@@ -225,7 +225,7 @@
                 <a href="#">Voltar para o Inicio</a>
             </p>
             <p class="mb-1">Todas as informações do banco de dados se encontra na pasta data</p>
-            <p class="mb-0">Objetivo Sistmeas {ANNO}</p>
+            <p class="mb-0">Objetivo Sistmeas <?= date('Y'); ?></p>
         </div>
     </footer>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
