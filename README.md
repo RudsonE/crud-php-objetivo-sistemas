@@ -1,29 +1,15 @@
-# README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# Desafio técnico: Desenvolvedor de Software 🚀
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+Problema Proposto: 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Elaborar um sistema de cadastro de clientes, utilizando-se de conceitos de POO.
 
-### Contribution guidelines ###
+O sistema já possui a interface pre montata pela equipe de desenvolvedores front-end.
+E banco de dados desenvolvido pelo PM, com base nisto monte o back-end da aplicação, implementando as funções de cadastro, edição e exclusão.
 
-* Writing tests
-* Code review
-* Other guidelines
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Obs:
+Os arquivos da base de dados se encontram na pasta data.
