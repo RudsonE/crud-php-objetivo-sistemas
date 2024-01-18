@@ -47,7 +47,7 @@ class Pessoa {
         $dados = array();
 
         
-        $query = "SELECT * FROM clientes";
+        $query = "SELECT * FROM cliente";
         $result = $conn->getConn()->query($query);
 
         if ($result->num_rows > 0) {
