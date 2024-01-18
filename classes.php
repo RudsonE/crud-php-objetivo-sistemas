@@ -41,6 +41,23 @@ class Pessoa {
        
 
     }
+    function getPessoa(){
+        $conn = new Database();
+
+        $dados = array();
+
+        // Substitua 'clientes' pelo nome real da sua tabela de clientes
+        $query = "SELECT * FROM clientes";
+        $result = $conn->getConn()->query($query);
+
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                $dados[] = $row;
+            }
+        }
+
+        return $dados;
+    }
 
 }
 ?>
