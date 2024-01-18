@@ -46,7 +46,7 @@ class Pessoa {
 
         $dados = array();
 
-        // Substitua 'clientes' pelo nome real da sua tabela de clientes
+        
         $query = "SELECT * FROM clientes";
         $result = $conn->getConn()->query($query);
 
