@@ -1,3 +1,8 @@
+<?php
+if($_GET["cadastro"]){
+
+}
+?>
 <!DOCTYPE html>
 
 <html lang="pt-BR" data-bs-theme="dark">
@@ -131,7 +136,7 @@
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <img class="mb-3 logo-img" src="assets/img/obj.jpg">
 
-                    <h3 class="fw-light">{Nome do Candidato}</h3>
+                    <h3 class="fw-light">Rudson Emanoel</h3>
 
                 </div>
             </div>
@@ -141,18 +146,18 @@
             <div class="col-lg-7 mx-auto">
                 
                 <form method="post" action="script.php">
-
+                <input type="hidden" name="inserir" value="TRUE"/>
                 <div class="mb-3">
                     <label for="" class="form-label">Nome:</label>
-                    <input type="text" class="form-control" id="" placeholder="Fulano da Silva Santos">
+                    <input type="text" class="form-control" name="nome" id="" placeholder="Fulano da Silva Santos">
                 </div>
                 <div class="mb-3">
-                    <label for="" class="form-label">Telefone:</label>
-                    <input type="number" class="form-control" id="" placeholder="(71) 3241-3010">
+                    <label for="" class="form-label" >Telefone:</label>
+                    <input type="number" class="form-control"name="tel" id="" placeholder="(71) 3241-3010">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label">Observação:</label>
-                    <textarea class="form-control" id="" placeholder="Alguma Observação Aqui !" rows="3"></textarea>
+                    <textarea class="form-control" name="obs" id="" placeholder="Alguma Observação Aqui !" rows="3"></textarea>
                 </div>
                 
                 <div class="mb-3">
