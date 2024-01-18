@@ -1,7 +1,7 @@
 <?php
-if($_GET["cadastro"]){
+require_once './script.php';
 
-}
+$psa = new Pessoa;
 ?>
 <!DOCTYPE html>
 
@@ -188,29 +188,10 @@ if($_GET["cadastro"]){
                     
                     
                     
-                    <?php $dados = array() ?>
-                    <?php foreach ($dados as $cliente): ?>
-                        <!--Inicio: Cards -->
-                        <div class="col">
-                            <div class="card shadow-sm">
-
-                                <div class="card-body">
-                                    <label class="text-uppercase"><strong>Nome do Cliente:</strong></label>
-                                    <p class="card-text">FULANO DA SILVA SANTOS</p>
-                                    <label class="text-uppercase"><strong>Telefone:</strong></label>
-                                    <p class="card-text">(71) 3241-3010</p>
-                                    <div class="d-flex justify-content-between align-items-center mt-4">
-                                        <div class="btn-group">
-                                            <a type="button" class="btn btn-sm btn-primary" href="#">Editar</a>
-                                            <a type="button" class="btn btn-sm btn-danger" href="#">Excluir</a>
-                                        </div>
-                                        <small class="text-body-secondary">Cadastrado em 12/01/2024</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Fim: Cards -->    
-                    <?php endforeach; ?>
+                    <?php $dados = $psa->getPessoa();
+                     gerarCardsClientes($dados);
+                    ?>
+                   
                     
                     
 
